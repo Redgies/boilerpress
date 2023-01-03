@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9423f99411779c19c2422745cf90a4d",
+    "content-hash": "7144bc19b1734565b7c204af2f0cd7e9",
     "packages": [
         {
             "name": "composer/installers",
@@ -1165,128 +1165,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/clean-image-filenames/"
-        },
-        {
-            "name": "yoast/whip",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Yoast/whip.git",
-                "reference": "49a6120d89a53874391d1451be8ef279feec0eae"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Yoast/whip/zipball/49a6120d89a53874391d1451be8ef279feec0eae",
-                "reference": "49a6120d89a53874391d1451be8ef279feec0eae",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "php-parallel-lint/php-console-highlighter": "^0.5",
-                "php-parallel-lint/php-parallel-lint": "^1.3",
-                "phpunit/phpunit": "^4.5 || ^5.7 || ^6.0 || ^7.0 || ^8.0 || ^9.0",
-                "roave/security-advisories": "dev-master",
-                "yoast/yoastcs": "^2.1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/facades/wordpress.php"
-                ],
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Team Yoast",
-                    "email": "support@yoast.com"
-                }
-            ],
-            "description": "A WordPress package to nudge users to upgrade their software versions (starting with PHP)",
-            "homepage": "https://github.com/Yoast/whip",
-            "support": {
-                "issues": "https://github.com/Yoast/whip/issues",
-                "source": "https://github.com/Yoast/whip"
-            },
-            "time": "2021-07-20T11:22:45+00:00"
-        },
-        {
-            "name": "yoast/wordpress-seo",
-            "version": "19.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Yoast-dist/wordpress-seo.git",
-                "reference": "38f025fbc45f4fca42d60bef7d8ae243b30935e9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Yoast-dist/wordpress-seo/zipball/38f025fbc45f4fca42d60bef7d8ae243b30935e9",
-                "reference": "38f025fbc45f4fca42d60bef7d8ae243b30935e9",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.12 || ^2.0",
-                "php": "^5.6.20 || ^7.0 || ^8.0",
-                "yoast/whip": "^1.2"
-            },
-            "require-dev": {
-                "guzzlehttp/guzzle": "6.5.8",
-                "humbug/php-scoper": "^0.13.4",
-                "league/oauth2-client": "2.6.1",
-                "phpunit/phpunit": "^5.7",
-                "psr/container": "1.0.0",
-                "psr/log": "^1.0",
-                "symfony/config": "^3.4",
-                "symfony/dependency-injection": "^3.4",
-                "symfony/polyfill-intl-idn": "1.19.0",
-                "symfony/polyfill-intl-normalizer": "1.19.0",
-                "symfony/polyfill-php70": "1.19.0",
-                "symfony/polyfill-php72": "1.19.0",
-                "wordproof/wordpress-sdk": "1.3.2",
-                "yoast/wp-test-utils": "^1.1.1",
-                "yoast/yoastcs": "^2.2.1"
-            },
-            "type": "wordpress-plugin",
-            "autoload": {
-                "classmap": [
-                    "admin/",
-                    "inc/",
-                    "vendor_prefixed/",
-                    "src/",
-                    "lib/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Team Yoast",
-                    "email": "support@yoast.com",
-                    "homepage": "https://yoa.st/1--"
-                }
-            ],
-            "description": "Improve your WordPress SEO: Write better content and have a fully optimized WordPress site using the Yoast SEO plugin.",
-            "homepage": "https://yoa.st/1ui",
-            "keywords": [
-                "seo",
-                "wordpress"
-            ],
-            "support": {
-                "forum": "https://wordpress.org/support/plugin/wordpress-seo",
-                "issues": "https://github.com/Yoast/wordpress-seo/issues",
-                "source": "https://github.com/Yoast/wordpress-seo",
-                "wiki": "https://github.com/Yoast/wordpress-seo/wiki"
-            },
-            "time": "2022-12-20T09:17:27+00:00"
         }
     ],
     "packages-dev": [

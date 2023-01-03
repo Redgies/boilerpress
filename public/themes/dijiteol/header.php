@@ -11,11 +11,5 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <header>
-        <nav role="navigation">
-            <?php wp_nav_menu(['theme_location' => 'navigation']); ?>
-        </nav>
-        <div class="text-red-500">
-            Test
-
-        </div>
+        Header
     </header>

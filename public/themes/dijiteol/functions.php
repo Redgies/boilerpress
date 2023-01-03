@@ -93,3 +93,27 @@ add_action('login_head', function () {
         implode('', $styles)
     );
 });
+
+// Add configuration page
+add_action('init', function () {
+    if (function_exists('acf_add_options_page')) {
+        acf_add_options_page(array(
+            'page_title' => 'Configuration',
+            'menu_title' => 'Configuration',
+            'menu_slug' => 'configuration',
+            'capability' => 'activate_plugins',
+            'redirect' => true
+        ));
+    }
+});
+
+// Get asset dir
+function get_asset_dir($path = null)
+{
+    if (is_null($path))
+        return get_template_directory_uri() . '/assets/';
+    return get_template_directory_uri() . '/assets/' . $path;
+}
+
+// Remove Gutemberg
+add_filter('use_block_editor_for_post', '__return_false', 10);
